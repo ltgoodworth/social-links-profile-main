@@ -1,8 +1,17 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+}
+
 body {
     background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: Inter;
+    font-size: 14px;
+    padding: 250px 0;
 }
 
 .social-card {
@@ -10,9 +19,11 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
     background-color: hsl(0, 0%, 12%);
+    padding: 40px 0;
+    border-radius: 10px;
 }
 
 .profile-picture {
@@ -22,6 +33,23 @@ body {
 }
 
 .social-link {
-    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 330px;
+    height: 40px;
     background-color: hsl(0, 0%, 20%);
+    margin: 7px auto;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+h2 {
+    color:hsl(75, 94%, 57%);
+    font-size: 12px;
+    font-weight: normal;
 }
