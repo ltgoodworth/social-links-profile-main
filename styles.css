@@ -1,0 +1,27 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(0, 0%, 8%);
+}
+
+.social-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.profile-picture {
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.social-link {
+    width: 450px;
+    background-color: hsl(0, 0%, 20%);
+}
